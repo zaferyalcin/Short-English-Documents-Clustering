@@ -63,6 +63,7 @@ word
 ## ALGORITHMS
   Many algorithms available for clustering topics. These topic can be categorized
 several fields such as methods the following:
+
   ● partitioning methods
   
   ● hierarchical methods
@@ -128,7 +129,9 @@ query is more than MinPts, it is included in the cluster.
 The complexity of DBSCAN Algorithm;
 
 Best Case: O(nlogn)
+
 Worst Case: O(n²)
+
 Average Case: Same as best/worst case depending on data and implementation of the
               algorithm.
    
@@ -137,6 +140,7 @@ algorithms such as R*- tree or spatial query have been proposed to reduce the ti
 complexity to O(logn).
 
 Advantages:
+
   ● Resistant to noise
   
   ● Can handle cluster of different shapes and sizes
