@@ -64,9 +64,13 @@ word
   Many algorithms available for clustering topics. These topic can be categorized
 several fields such as methods the following:
   ● partitioning methods
+  
   ● hierarchical methods
+  
   ● density-based methods
+  
   ● grid-based methods
+  
   
   In the term project, three clustering algorithms must be used and then compared to
 each other
@@ -76,12 +80,16 @@ each other
 K-means algorithm is the most popular and simplest ML algorithm between clustering topics.
 We can implement the K-means algorithm according to the following pseudocode:
   ● The number of clusters desired to be formed is taken from the user as the k value.
+  
   ● At the end of the algorithm, k points, which we expect to be the center, are
     randomly added to the data space.
+    
   ● The borders of randomly assigned centers are determined to be separated from
     each other, provided that no data will be left out.
+    
   ● Operations based on mean and euclidean distance are applied to each of the data
     and then enters and borders are relocated.
+    
   ● These processes are taken recursively until the location of the centers and borders
     remains the same as before the last process.
 
@@ -130,10 +138,14 @@ complexity to O(logn).
 
 Advantages:
   ● Resistant to noise
+  
   ● Can handle cluster of different shapes and sizes
+  
   ● It just needs two paremeters: MinPts ad Eps.
-Disadvantages:
+    Disadvantages:
+
   ● It does not work well varying densities and high-dimensional data
+  
   ● Sensitive to paramete
   
 ### Balanced Iterative Reduction and Clustering Using Hierarchies (BIRCH):
@@ -185,6 +197,7 @@ of clusters in your data.
 
 ## TOOLS
   ● The Natural Language Toolkit (NLTK)
+  
   ● Scikit-learn
 
 
